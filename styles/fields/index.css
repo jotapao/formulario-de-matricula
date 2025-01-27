@@ -12,9 +12,20 @@ margin-bottom: .25rem;
 
 }
 
-input:focus,
+input:focus, 
 select:focus,
 textarea:focus {
     outline: .25rem solid var(--surface-secondary); 
     border: .125rem solid var(--stroke-hightlight);
+    outline-offset: 1px;
+}
+
+
+
+    
+
+
+select {
+    background: url(../../Assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
+    
 }
