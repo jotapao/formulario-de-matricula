@@ -49,6 +49,12 @@
         flex: 2;
     }
 
+    label {
+        color: var(--text-secondary);
+    }
+
+    
+
 
 
 
